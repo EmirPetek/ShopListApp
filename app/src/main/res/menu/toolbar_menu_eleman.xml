@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_arama"
+        android:icon="@drawable/image_menu_arama"
+        android:title="Arama"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/action_hepsini_sil"
+        android:title="Tüm elemanları sil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hepsini_isaretle"
+        android:title="Tüm elemanları işaretle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hepsini_birak"
+        android:title="Tüm seçimleri kaldır"
+        app:showAsAction="never" />
+</menu>

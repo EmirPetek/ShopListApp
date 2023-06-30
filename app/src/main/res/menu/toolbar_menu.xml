@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_ara"
+        android:icon="@drawable/image_menu_arama"
+        android:title="Ara"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/action_sil"
+        android:title="Tümünü Sil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hakkimizda"
+        android:title="Hakkımızda" />
+</menu>
